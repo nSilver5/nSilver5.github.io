@@ -99,7 +99,7 @@
       ]
     }
   ],
-  "Industry Experience": [
+  "Industry": [
     
     {
       "name": "Vatn Systems [AUV]",
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "Student Design Team": [
+  "Projects": [
     {
       "name": "Brown Formula Racing",
       "summary": "FSAE",
@@ -179,9 +179,7 @@
         "Conducted fan flowrate and electric current testing to determine fan spec and mounting position.",
         "Compiled a Bill of Materials (BOM) and sourced custom components from vendors based on engineering drawings."
       ]
-    }
-  ],
-  "Course Projects":[
+    },
     {
       "name": "High Reynolds Number Flows",
       "position": "Researcher",
