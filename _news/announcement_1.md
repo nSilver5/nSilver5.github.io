@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-09-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Began studying for an Sc.M. in Mechanical Engineering at Brown University. 
