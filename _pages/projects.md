@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Relevant Engineering.
+description: Relevant engineering projects.
 nav: true
 nav_order: 3
 display_categories: [Student Design Team, Research, Course Projects, work, fun]

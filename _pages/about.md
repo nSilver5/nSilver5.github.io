@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Robotics & Mechanical Design | Prototyping, FEM & DFM | MS Mechanical Engineering, Brown University ’26
 
