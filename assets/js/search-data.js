@@ -404,7 +404,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-drivetrain",
           title: 'Drivetrain',
-          description: "Brown Formula Racing Lead Mechanical Engineer, Drivetrain",
+          description: "Brown Formula Racing Lead Mechanical Engineer – Drivetrain",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
