@@ -4,20 +4,20 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Relevant Engineering.",
+          description: "Relevant engineering projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-resume",
+          title: "Resume",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -404,7 +404,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-drivetrain",
           title: 'Drivetrain',
-          description: "Brown Formula Racing Lead Mechanical Engineer – Drivetrain",
+          description: "Brown Formula Racing – Lead Drivetrain Engineer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
