@@ -8,38 +8,46 @@ category: Student Design Team
 related_publications: false
 ---
 
-#### Design Requirements
+#### Design Requirements:
 - Minimize weight
 - Optimize torque and speed tradeoff (for faster lap times)
 
-#### Outcomes
+#### Outcomes:
 - 30% mounting weight reduction
 - 12% higher finishes in acceleration and endurance events
 
-#### Technical Skills
+#### Technical Skills:
 - CAD
 - FEA
 - CAM & CNC
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drivetrain_render.png" title="Drivetrain CAD render" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/drivetrain_render.png" title="Drivetrain CAD render"
+        caption="Drivetrain SolidWorks render."
+        class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Drivetrain_assembly.jpg" title="Drivetrain physical assembly photo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drivetrain_onCar.png" title="drivetrain on car photo" class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
+        {% include figure.liquid loading="eager" path="assets/img/Drivetrain_assembly.jpg" title="Drivetrain physical assembly photo" 
+        caption="Removable portion of physical drivetrain assembly."
+        class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Drivetrain SolidWorks render (left) and removable portion of physical assembly (middle) and mounted assembly (right).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/drivetrain_onCar.png" title="drivetrain on car photo"
+        caption="Drivetrain mounted assembly."
+        class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
+    </div>
 </div>
 
 {% comment %}
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" 
+        caption='
+        class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -126,6 +134,7 @@ Gear Ratio Selection:
 
 Structural Analysis:
 
+{% comment %}
 /* Make both images the same height */
 .equal-size {
   width: 100%;        /* fill column width */
@@ -148,6 +157,7 @@ Structural Analysis:
   color: #6c757d;
   margin-top: 0.5rem;
 }
+{% endcomment %}
 
 <div class="row">
   <div class="col-md-6 mt-3 mt-md-0 text-center">
@@ -163,9 +173,9 @@ Structural Analysis:
   <div class="col-md-6 mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/DisplacementFEA.png"
+       path="assets/img/DisplacementFEA_2.jpeg"
        title="Displacement FEA visual"
-       caption="Displacement field from FEA analysis, cropped to highlight key regions."
+       caption="Displacement field from FEA analysis."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
     %}
   </div>
@@ -199,24 +209,22 @@ Manufacturing:
            loading="eager"
            path="assets/img/EDiskDrawing.png"
            title="Eccentric Disk Drawing"
+           caption="Critical to function dimensioned drawing of the eccentric disk."
            class="img-fluid rounded z-depth-1"
-        %}
-    </div>
-
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid
-           loading="eager"
-           path="assets/img/Machined_pillowblock.jpg"
-           title="Machined pillowblock and eccentric disk"
-           class="img-fluid rounded z-depth-1 img-crop-center"
         %}
     </div>
 </div>
 
-
-<div class="caption text-center">
-    Critical to function dimensioned drawing of the eccentric disk. (left)  
-    In house CNC milled differential mounting and eccentric disk. (right)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Machined_pillowblock_2.jpeg"
+           title="Machined pillowblock and eccentric disk"
+           caption="In house CNC milled differential mounting and eccentric disk."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
 </div>
 
 
