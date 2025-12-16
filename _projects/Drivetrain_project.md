@@ -11,7 +11,7 @@ related_publications: false
 <br><br>
 
 ### Overview:
-<br><br>
+
 ##### Design Requirements:
 - Minimize weight
 - Optimize torque and speed tradeoff (for faster lap times)

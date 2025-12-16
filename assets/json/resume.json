@@ -28,8 +28,8 @@
       "location": "Providence, RI",
       "area": "Mechanical Engineering and Applied Mechanics",
       "studyType": "Master of Science",
-      "startDate": "2025-09-01",
-      "endDate": "2026-05-01",
+      "startDate": "09-2025",
+      "endDate": "05-2026",
       "score": "",
       "courses": [
         "Computational Methods in Structural Mechanics",
@@ -43,8 +43,8 @@
       "location": "Providence, RI",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2021-09-01",
-      "endDate": "2025-05-01",
+      "startDate": "09-2021",
+      "endDate": "05-2025",
       "score": "4.0/4.0 GPA",
       "courses": [
         "Structural Analysis (FEM)",
@@ -67,7 +67,7 @@
       "name": "Brown ACT Lab",
       "position": "Researcher",
       "summary": "Aerial robotics",
-      "startDate": "2025-08-01",
+      "startDate": "08-2025",
       "endDate": "",
       "highlights": [
         "Prototyping a lightweight, robust system to facilitate mid-air drone assembly and integrating cascading PID, SMC, and MPC robotics control strategies for Automatic Coordination of Teams (ACT) Lab.",
@@ -77,7 +77,7 @@
     {
       "name": "Athletek",
       "position": "Lead Mechanical Engineer",
-      "startDate": "2025-07-01",
+      "startDate": "07-2025",
       "endDate": "",
       "summary": "Mobile Robotics Startup",
       "highlights": [
@@ -90,8 +90,8 @@
       "name": "Vibrations of Mechanical Systems & Wilhelmus Lab",
       "position": "Researcher",
       "summary": "Mechatronics",
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-01",
+      "startDate": "09-2024",
+      "endDate": "12-2024",
       "highlights": [
         "Designed an electromechanical shrimp leg to study locomotion dynamics in collaboration with 5 members.",
         "Owned design and development of prototype leg, fin, and solenoid covers to integrate electronic and dynamic systems.",
@@ -100,12 +100,11 @@
     }
   ],
   "industry": [
-    
     {
       "name": "Vatn Systems",
       "position": "Mechanical Engineering Intern",
-      "startDate": "2024-05-01",
-      "endDate": "2024-08-01",
+      "startDate": "05-2024",
+      "endDate": "08-2024",
       "summary": "Autonomous Underwater Vehicles",
       "highlights": [
         "Redesigned 11 shell and mounting components in bow module to improve packaging, ballast speed and accuracy, and facilitate mission-critical payload integration for autonomous underwater vehicles in a fast-paced, startup environment.",
@@ -118,8 +117,8 @@
     {
       "name": "ACS Industries, Inc.",
       "position": "Mechanical Engineering Intern",
-      "startDate": "2023-05-01",
-      "endDate": "2023-08-01",
+      "startDate": "05-2023",
+      "endDate": "08-2023",
       "summary": "Automotive Manufacturer",
       "highlights": [
         "Created 9 detailed CAD parts to adapt a 50 component wire mesh manufacturing machine to accommodate larger products.",
@@ -129,8 +128,8 @@
     {
       "name": "VoltServer",
       "position": "Test Team Intern",
-      "startDate": "2022-05-01",
-      "endDate": "2022-08-01",
+      "startDate": "05-2022",
+      "endDate": "08-2022",
       "summary": "Electronics Manufacturer",
       "highlights": [
         "Wired and assembled three 5 level electronics test fixtures for contract manufacturers to test custom power distribution units.",
@@ -143,8 +142,8 @@
       "name": "Brown Formula Racing",
       "summary": "FSAE",
       "position": "Lead Aerodynamics Engineer",
-      "startDate": "2024-05-01",
-      "endDate": "2025-05-01",
+      "startDate": "05-2024",
+      "endDate": "05-2025",
       "highlights": [
         "Lead a team of 8 students in iterative design of an aerodynamics package of 100 components",
         "Conducted critical design reviews and collaborated with cross-disciplinary teams to derive product requirements.",
@@ -157,8 +156,8 @@
       "name": "Brown Formula Racing",
       "position": "Lead Drivetrain Engineer",
       "summary": "FSAE",
-      "startDate": "2023-05-01",
-      "endDate": "2024-05-01",
+      "startDate": "05-2023",
+      "endDate": "05-2024",
       "highlights": [
         "Owned end-to-end drivetrain design, analysis, and testing for 2024 racecar.",
         "Developed CAD and CAE models and mechanical drawings for 75+ drivetrain components; held DFM reviews.",
@@ -171,8 +170,8 @@
       "name": "Brown Formula Racing",
       "position": "Lead Cooling System Engineer",
       "summary": "FSAE",
-      "startDate": "2022-05-01",
-      "endDate": "2023-05-01",
+      "startDate": "05-2022",
+      "endDate": "05-2023",
       "highlights": [
         "Owned end-to-end design and implementation of a reliable, dual-pass radiator for 2023 racecar, resolving 5 years of overheating issues.",
         "Analyzed dynamometer temperature and flowrate data for appropriate radiator sizing using heat transfer fundamentals.",
@@ -184,8 +183,8 @@
       "name": "High Reynolds Number Flows",
       "position": "Researcher",
       "summary": "Experimental Fluids",
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-01",
+      "startDate": "01-2024",
+      "endDate": "05-2024",
       "highlights": [
         "Compared 10+ airfoil profiles using low fidelity aerodynamics tool XFLR5 to select highest efficiency airfoils.",
         "Tested three iterations of airfoils in a wind tunnel, using strain gauges to measure tangential and normal forces across AoA.",
@@ -196,8 +195,8 @@
       "name": "Structural Analysis",
       "position": "Project Lead",
       "summary": "Finite Element Analysis",
-      "startDate": "2025-01-01",
-      "endDate": "2025-05-01",
+      "startDate": "01-2025",
+      "endDate": "05-2025",
       "highlights": [
         "Simulated the nonlinear dynamic response of a hockey stick during a slapshot, approximating material properties of a carbon fiber stick and dynamics by modeling contact and time-dependent loading.",
         "Studied the effect of stick stiffness on blade velocity, and validated findings against literature data."
@@ -245,51 +244,50 @@
   ],
   "languages": [],
   "interests": [
-  {
-    "name": "Personal",
-    "icon": "",
-    "keywords": [
-      "Ice hockey",
-      "Lacrosse",
-      "Poker",
-      "Saxophone",
-      "Skiing",
-      "Juggling",
-      "Woodworking projects"
-    ]
-  }
-],
+    {
+      "name": "Personal",
+      "icon": "",
+      "keywords": [
+        "Ice hockey",
+        "Lacrosse",
+        "Poker",
+        "Saxophone",
+        "Skiing",
+        "Juggling",
+        "Woodworking projects"
+      ]
+    }
+  ],
   "awards": [
-  {
-    "title": "Sigma Xi - Scientific Research Honor Society",
-    "date": "05-2025",
-    "awarder": "Brown University",
-    "url": "",
-    "summary": ""
-  },
-  {
-    "title": "Cum Laude",
-    "date": "05-2021",
-    "awarder": "Moses Brown School",
-    "url": "",
-    "summary": ""
-  }, 
-  {
-    "title": "John Milton Payne II Prize for Excellence in English",
-    "date": "05-2021",
-    "awarder": "Moses Brown School",
-    "url": "",
-    "summary": ""
-  }, 
-  {
-    "title": "Prize for Excellence in Mathematics",
-    "date": "05-2021",
-    "awarder": "Moses Brown School",
-    "url": "",
-    "summary": ""
-  }
-],
-
+    {
+      "title": "Sigma Xi - Scientific Research Honor Society",
+      "date": "05-2025",
+      "awarder": "Brown University",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Cum Laude",
+      "date": "05-2021",
+      "awarder": "Moses Brown School",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "John Milton Payne II Prize for Excellence in English",
+      "date": "05-2021",
+      "awarder": "Moses Brown School",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Prize for Excellence in Mathematics",
+      "date": "05-2021",
+      "awarder": "Moses Brown School",
+      "url": "",
+      "summary": ""
+    }
+  ],
   "certificates": [],
   "volunteer": [],
   "publications": [],

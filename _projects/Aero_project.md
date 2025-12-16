@@ -8,6 +8,7 @@ category: Student Design Team
 related_publications: false
 ---
 ###### May 2024 - May 2025
+<br><br>
 
 ### Overview:
 
