@@ -448,13 +448,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/Slapshot_project/";
             },},{
-        id: 'social-academia_edu',
-        title: 'Academia_edu',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
