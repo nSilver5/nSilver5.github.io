@@ -2,8 +2,8 @@
 layout: page
 title: Aerodynamics
 description: Brown Formula Racing – Lead Aerodynamics Engineer
-img: assets/img/drivetrain_render.png
-importance: 1
+img: assets/img/AeroPackageRender.png
+importance: 2
 category: Student Design Team
 related_publications: false
 ---
@@ -107,7 +107,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/foam_copy.jpg"
+       path="assets/img/FoamMold.jpeg"
        title="von Mises FEA visual"
        caption="High density CNC cut foam mold of rear wing main element bottom surface."
        class="img-fluid rounded z-depth-1 equal-size"
@@ -117,7 +117,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/VacuumBag_copy.jpg"
+       path="assets/img/VacuumBag.jpeg"
        title="Displacement FEA visual"
        caption="Vacuum bagging diffusers."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
@@ -163,23 +163,11 @@ related_publications: false
     </div>
 </div>
 
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid
-           loading="eager"
-           path="assets/img/Airfoil_Instron.png"
-           title="Machined pillowblock and eccentric disk"
-           caption="Intron three point bend test of hollow composite airfoil. Assessed stiffness and determined a carbon fiber weight for manufacturing."
-           class="img-fluid rounded z-depth-1 img-crop-center"
-        %}
-    </div>
-</div>
-
 <div class="row">
 <div class="col-md-6 mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/AeroLaptimeChart.png"
+       path="assets/img/AeroLapTimeChart.png"
        title="Displacement FEA visual"
        caption="Average lap time graph with aero on and off the vehicle."
        class="img-fluid rounded z-depth-1 equal-size-cropped"

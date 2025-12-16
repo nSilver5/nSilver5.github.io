@@ -6,7 +6,7 @@
     "email": "noah_silverman@brown.edu",
     "phone": "(401) 714-4230",
     "url": "https://linkedin.com/in/noah-silverman/",
-    "summary": "Mechanical Engineer and M.S. candidate at Brown University (’26) with experience in design for manufacturing and FEA/FEM analysis. Skilled in prototyping and testing complex systems, and effectively collaborating across disciplines in fast-paced, hands-on environments.",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -262,28 +262,28 @@
   "awards": [
   {
     "title": "Sigma Xi - Scientific Research Honor Society",
-    "date": "2025-05-01",
+    "date": "05-2025",
     "awarder": "Brown University",
     "url": "",
-    "summary": "Inducted 2025."
+    "summary": ""
   },
   {
     "title": "Cum Laude",
-    "date": "2021-05",
+    "date": "05-2021",
     "awarder": "Moses Brown School",
     "url": "",
     "summary": ""
   }, 
   {
     "title": "John Milton Payne II Prize for Excellence in English",
-    "date": "2025-05",
+    "date": "05-2021",
     "awarder": "Moses Brown School",
     "url": "",
     "summary": ""
   }, 
   {
     "title": "Prize for Excellence in Mathematics",
-    "date": "2025-05",
+    "date": "05-2021",
     "awarder": "Moses Brown School",
     "url": "",
     "summary": ""

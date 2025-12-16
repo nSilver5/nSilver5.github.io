@@ -44,6 +44,14 @@ related_publications: false
 ### Results:
 
 <div class="row">
+ <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/BladeStickVelocity.png"
+      title="Speed vs time accel data"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
@@ -52,18 +60,9 @@ related_publications: false
       class="img-fluid rounded z-depth-1"
     %}
   </div>
-
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid
-      loading="eager"
-      path="assets/img/BladeStickVelocity.png"
-      title="Speed vs time accel data"
-      class="img-fluid rounded z-depth-1"
-    %}
-  </div>
 </div>
 <div class="caption">
-    Blade (stick tip) velocity over time, showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518'>litterature</a> result above.
+    Blade (stick tip) velocity over time (right), showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518'>litterature</a> result (right).
 </div>
 
 <div class="row justify-content-center">
