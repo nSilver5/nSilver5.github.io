@@ -1,81 +1,80 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Slapshot Dynamic Analysis
+description: Structural Analysis
+img: assets/img/drivetrain_render.png
+importance: 1
+category: Course Projects
+related_publications: false
 ---
+###### Jan. 2025 - May 2025
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview:
+###
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+##### Design Requirements:
+- Approximate hockey stick material properties for simplified model
+- Model slapshot dynamics
+- Find velocity vs. stiffness relationship
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+##### Outcomes:
+- Created a model to study parameters of a slapshot for low computational cost
+- 28% error in time to peak velocity, 45% error in peak velocity resulting from simplifications.
+
+
+##### Technical Skills:
+- Abaqus FEA
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Drivetrain CAD render"
+        caption="Deformation of an actual slapshot for comparison."
+        class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still_FEA.jpg" title="Drivetrain physical assembly photo" 
+        caption="Timestep from a slapshot dynamic simulation, with beam element visualized as a line."
+        class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+
+
+### Results:
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/BladeTimeVelocity_litterature.png"
+      title="Speed vs Gear for different gear ratios plot"
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/BladeStickVelocity.png"
+      title="Speed vs time accel data"
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
 </div>
-```
+<div class="caption">
+    Blade (stick tip) velocity over time, showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='litterature'>https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518</a> result above.
+</div>
 
-{% endraw %}
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/BladeVelocityVStiffness.png"
+       caption="Stick tip velocity magnitude vs. stick stiffness (represented as Young’s Modulus), showing a faster shot for a more flexible stick under a 100 N max applied load."
+       title="Torque Vs RPM plot"
+       class="img-fluid rounded z-depth-1 mx-auto d-block"
+    %}
+  </div>
+</div>
