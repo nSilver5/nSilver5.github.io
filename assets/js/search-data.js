@@ -402,22 +402,7 @@ ninja.data = [{
           section: "News",},{id: "news-began-studying-for-an-sc-m-in-mechanical-engineering-at-brown-university",
           title: 'Began studying for an Sc.M. in Mechanical Engineering at Brown University.',
           description: "",
-          section: "News",},{id: "projects-slapshot-dynamic-analysis",
-          title: 'Slapshot Dynamic Analysis',
-          description: "Structural Analysis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-shrimpbot",
-          title: 'Shrimpbot',
-          description: "Vibrations Course &amp; Wilhelmus Lab",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-aerodynamics",
-          title: 'Aerodynamics',
-          description: "Brown Formula Racing – Lead Aerodynamics Engineer",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -442,11 +427,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-aerodynamics",
+          title: 'Aerodynamics',
+          description: "Brown Formula Racing – Lead Aerodynamics Engineer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Aero_project/";
             },},{id: "projects-drivetrain",
           title: 'Drivetrain',
           description: "Brown Formula Racing – Lead Drivetrain Engineer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Drivetrain_project/";
+            },},{id: "projects-shrimpbot",
+          title: 'Shrimpbot',
+          description: "Vibrations Course &amp; Wilhelmus Lab",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Shrimpbot_project/";
+            },},{id: "projects-slapshot-dynamic-analysis",
+          title: 'Slapshot Dynamic Analysis',
+          description: "Structural Analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Slapshot_project/";
             },},{
         id: 'social-academia_edu',
         title: 'Academia_edu',
