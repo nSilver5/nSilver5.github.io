@@ -35,7 +35,7 @@ related_publications: false
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Drivetrain CAD render"
-        caption="Deformation of an actual slapshot for comparison (from href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>)."
+        caption="Deformation of an actual slapshot for comparison (from <a href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>)."
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
