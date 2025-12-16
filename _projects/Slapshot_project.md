@@ -41,6 +41,8 @@ related_publications: false
     </div>
 </div>
 
+---
+
 ### Results:
 
 <div class="row">

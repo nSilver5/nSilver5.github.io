@@ -59,6 +59,8 @@ related_publications: false
 </div>
 {% endcomment %}
 
+---
+
 ### Gear Ratio Selection:
 
 <div class="row">
@@ -132,6 +134,8 @@ related_publications: false
 </div>
 {% endcomment %}
 
+---
+
 ### Structural Analysis:
 
 <div class="row">
@@ -168,6 +172,8 @@ related_publications: false
     Static structural FEA on Left Differential Mount, with von Mises stress and deformed displacement visualizations. Forces are resolved from max engine torque. Boundary conditions are pinned mounts and eccentric disk contact.
 </div>
 {% endcomment %}
+
+---
 
 ### Manufacturing:
 
@@ -227,3 +233,4 @@ Here's the code for the last row of images above:
 {% endraw %}
 {% endcomment %}
 
+---

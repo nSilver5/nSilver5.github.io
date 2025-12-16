@@ -40,7 +40,7 @@ related_publications: false
     </div>
 </div>
 
-
+---
 
 ### Design:
 
@@ -87,6 +87,7 @@ related_publications: false
     Metachronal swimming function (left) and necessary output current for metachronal swimming (right), as determined from the system ODE.
 </div>
 
+---
 
 ### Results:
 

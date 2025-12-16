@@ -43,6 +43,8 @@ related_publications: false
     </div>
 </div>
 
+---
+
 ### Simulation:
 
 <div class="row">
@@ -103,6 +105,8 @@ related_publications: false
   </div>
 </div>
 
+---
+
 ### Manufacturing:
 
 <div class="row">
@@ -138,6 +142,8 @@ related_publications: false
         %}
     </div>
 </div>
+
+---
 
 ### Testing:
 
@@ -185,3 +191,5 @@ related_publications: false
     %}
   </div>
 </div>
+
+---
