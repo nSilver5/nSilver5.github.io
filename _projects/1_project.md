@@ -8,6 +8,8 @@ category: Student Design Team
 related_publications: false
 ---
 
+### Overview
+
 #### Design Requirements:
 - Minimize weight
 - Optimize torque and speed tradeoff (for faster lap times)
@@ -34,8 +36,8 @@ related_publications: false
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/drivetrain_onCar.png" title="drivetrain on car photo"
         caption="Drivetrain mounted assembly."
         class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
@@ -54,7 +56,7 @@ related_publications: false
 </div>
 {% endcomment %}
 
-Gear Ratio Selection:
+### Gear Ratio Selection:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -93,16 +95,12 @@ Gear Ratio Selection:
     {% include figure.liquid
        loading="eager"
        path="assets/img/TorqueVsRPM.png"
+       caption="Engine torque curve plotted with torques calculated to reach traction limit in 1st & 2nd gear – showing effective gear ratio for engine to reach the traction limit torque."
        title="Torque Vs RPM plot"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
 </div>
-
-<div class="caption text-center">
-  Engine torque curve plotted with torques calculated to reach traction limit in 1st & 2nd gear – showing effective gear ratio for engine to reach the traction limit torque.
-</div>
-
 
 {% comment %}
 <div class="row">
@@ -131,32 +129,7 @@ Gear Ratio Selection:
 </div>
 {% endcomment %}
 
-Structural Analysis:
-
-{% comment %}
-/* Make both images the same height */
-.equal-size {
-  width: 100%;        /* fill column width */
-  height: 300px;      /* adjust to your preferred height */
-  object-fit: cover;  /* scales and crops image while keeping aspect ratio */
-}
-
-/* Optional: crop second image differently */
-.equal-size-cropped {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center top; /* crop focus on top center */
-}
-
-/* Center captions under images */
-.figure-caption {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #6c757d;
-  margin-top: 0.5rem;
-}
-{% endcomment %}
+### Structural Analysis:
 
 <div class="row">
   <div class="col-md-6 mt-3 mt-md-0 text-center">
@@ -193,17 +166,19 @@ Structural Analysis:
 </div>
 {% endcomment %}
 
-Manufacturing:
+### Manufacturing:
 
+{% comment %}
 .img-crop-center {
   width: 100%;           /* fills the column width */
   height: 300px;         /* set desired height */
   object-fit: cover;     /* scales image and crops overflow */
   object-position: center; /* crop centered vertically & horizontally */
 }
+{% endcomment %}
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid
            loading="eager"
            path="assets/img/EDiskDrawing.png"
@@ -214,8 +189,8 @@ Manufacturing:
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid
            loading="eager"
            path="assets/img/Machined_pillowblock_2.jpeg"
