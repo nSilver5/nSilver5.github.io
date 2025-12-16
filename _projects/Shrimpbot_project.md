@@ -8,7 +8,8 @@ category: Research
 related_publications: false
 ---
 ###### Sept. 2024 - Dec. 2024
-<br><br>
+
+---
 
 ### Overview:
 
