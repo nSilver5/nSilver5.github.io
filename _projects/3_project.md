@@ -2,7 +2,7 @@
 layout: page
 title: Shrimpbot
 description: Vibrations Course & Wilhelmus Lab
-img: assets/img/drivetrain_render.png
+img: assets/img/Shrimpbot_sketch.png.png
 importance: 1
 category: Research
 related_publications: false
@@ -10,7 +10,6 @@ related_publications: false
 ###### Sept. 2024 - Dec. 2024
 
 ### Overview:
-###
 
 ##### Design Requirements:
 - Constrain leg movement besides pivot axis with an easy to assemble, exchangeable design in fixed form factor.
@@ -56,7 +55,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/ShrimpbotODEmodel.png"
-       caption="SSchematic to determine ODE model for the system."
+       caption="Schematic to determine ODE model for the system."
        title="Torque Vs RPM plot"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
@@ -102,7 +101,7 @@ related_publications: false
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
-      path="assets/img/PIDplot_constantSetpoint.png"
+      path="assets/img/PIDplot_constantSetpoint.jpg"
       title="Speed vs time accel data"
       class="img-fluid rounded z-depth-1"
     %}
@@ -126,7 +125,7 @@ related_publications: false
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
-      path="assets/img/PIDplot_changingSetpoint.png"
+      path="assets/img/PIDplot_changingSetpoint.jpg"
       title="Speed vs time accel data"
       class="img-fluid rounded z-depth-1"
     %}
@@ -150,7 +149,7 @@ related_publications: false
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
-      path="assets/img/PIDplot_functionSetpoint.png"
+      path="assets/img/PIDplot_functionSetpoint.jpg"
       title="Speed vs time accel data"
       class="img-fluid rounded z-depth-1"
     %}

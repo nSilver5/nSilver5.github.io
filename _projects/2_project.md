@@ -2,7 +2,7 @@
 layout: page
 title: Slapshot Dynamic Analysis
 description: Structural Analysis
-img: assets/img/drivetrain_render.png
+img: assets/img/Slapshot_still_FEA.jpg
 importance: 1
 category: Course Projects
 related_publications: false
@@ -10,7 +10,6 @@ related_publications: false
 ###### Jan. 2025 - May 2025
 
 ### Overview:
-###
 
 ##### Design Requirements:
 - Approximate hockey stick material properties for simplified model
@@ -64,7 +63,7 @@ related_publications: false
   </div>
 </div>
 <div class="caption">
-    Blade (stick tip) velocity over time, showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='litterature'>https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518</a> result above.
+    Blade (stick tip) velocity over time, showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518'>litterature</a> result above.
 </div>
 
 <div class="row justify-content-center">

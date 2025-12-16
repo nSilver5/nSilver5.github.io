@@ -13,15 +13,15 @@ related_publications: false
 ### Overview:
 ###
 
-#### Design Requirements:
+##### Design Requirements:
 - Minimize weight
 - Optimize torque and speed tradeoff (for faster lap times)
 
-#### Outcomes:
+##### Outcomes:
 - 30% mounting weight reduction
 - 12% higher finishes in acceleration and endurance events
 
-#### Technical Skills:
+##### Technical Skills:
 - CAD
 - FEA
 - CAM & CNC

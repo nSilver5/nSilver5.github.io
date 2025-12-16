@@ -1,80 +1,197 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: none
+title: Aerodynamics
+description: Brown Formula Racing – Lead Aerodynamics Engineer
+img: assets/img/drivetrain_render.png
+importance: 1
+category: Student Design Team
+related_publications: false
 ---
+###### May 2024 - May 2025
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+##### Design Requirements:
+- Minimize weight
+- Tune downforce, drag & aero balance (for improved lap times)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+##### Outcomes:
+- 24.5% weight reduction while remaining durable
+- 22.7% downforce increase, 7.2% drag reduction
+- Adjustable wing to tune aero balance from 45-55% front
+
+
+##### Technical Skills:
+- STAR-CCM+ CFD
+- SolidWorks CAD
+- Composites Manufacturing
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/AeroPackageRender.png" title="Drivetrain CAD render"
+        caption="SolidWorks render of aerodynamics components."
+        class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/StarCCM_cadRender.png" title="Drivetrain physical assembly photo" 
+        caption="STAR-CCM+ CAD render for CFD simulations."
+        class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+### Simulation:
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/CorneringStreamlines.png"
+      title="Speed vs Gear for different gear ratios plot"
+      caption="Pressure coefficient streamlines in cornering simulations."
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/TotalPressureScene.jpeg"
+      title="Speed vs time accel data"
+      caption="Total pressure coefficient front view of left diffuser, observing vortex generation and effects of inwashing from wheels."
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
 </div>
-```
 
-{% endraw %}
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/OutboardRWvelocityStreamlines.png"
+      title="Speed vs Gear for different gear ratios plot"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/InboardRWvelocityStreamlines.png"
+      title="Speed vs time accel data"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
+<div class="caption">
+    Outboard (left) and inboard (right) velocity streamline scenes of the rear wing assisting in tuning rear wing elements. 
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/dmprj_example.png"
+       caption="Design manager project iterating rear wing third flap angle of attack in STAR-CCM+ for CLA optimization."
+       title="Torque Vs RPM plot"
+       class="img-fluid rounded z-depth-1 mx-auto d-block"
+    %}
+  </div>
+</div>
+
+### Manufacturing:
+
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/foam_copy.jpg"
+       title="von Mises FEA visual"
+       caption="High density CNC cut foam mold of rear wing main element bottom surface."
+       class="img-fluid rounded z-depth-1 equal-size"
+    %}
+  </div>
+
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/VacuumBag_copy.jpg"
+       title="Displacement FEA visual"
+       caption="Vacuum bagging diffusers."
+       class="img-fluid rounded z-depth-1 equal-size-cropped"
+    %}
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/AeroPackageCrop.jpeg"
+           title="Eccentric Disk Drawing"
+           caption="Finished front and rear wing elements."
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+</div>
+
+### Testing:
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/dmprj_meshStudy.png"
+           title="Eccentric Disk Drawing"
+           caption="CLA vs. base mesh size, one of the metrics examined in the mesh independence study."
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Airfoil_Instron.png"
+           title="Machined pillowblock and eccentric disk"
+           caption="Intron three point bend test of hollow composite airfoil. Assessed stiffness and determined a carbon fiber weight for manufacturing."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Airfoil_Instron.png"
+           title="Machined pillowblock and eccentric disk"
+           caption="Intron three point bend test of hollow composite airfoil. Assessed stiffness and determined a carbon fiber weight for manufacturing."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-6 mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/AeroLaptimeChart.png"
+       title="Displacement FEA visual"
+       caption="Average lap time graph with aero on and off the vehicle."
+       class="img-fluid rounded z-depth-1 equal-size-cropped"
+    %}
+  </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/TuftTest_Image.png"
+       title="von Mises FEA visual"
+       caption="Rear wing tuft testing captured by a mounted video camera."
+       class="img-fluid rounded z-depth-1 equal-size"
+    %}
+  </div>
+</div>
