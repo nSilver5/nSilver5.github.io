@@ -2,7 +2,7 @@
 layout: page
 title: Drivetrain
 description: Brown Formula Racing – Lead Drivetrain Engineer
-img: assets/img/drivetrain_render.png
+img: assets/img/Drivetrain_explodedView.png
 importance: 1
 category: Student Design Team
 related_publications: false

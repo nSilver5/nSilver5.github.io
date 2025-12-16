@@ -29,18 +29,16 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Drivetrain CAD render"
-        caption="Deformation of an actual slapshot for comparison."
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still_FEA.jpg" title="Drivetrain physical assembly photo" 
+        caption="Timestep from a slapshot dynamic simulation, with the beam element visualized as a line."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still_FEA.jpg" title="Drivetrain physical assembly photo" 
-        caption="Timestep from a slapshot dynamic simulation, with beam element visualized as a line."
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Drivetrain CAD render"
+        caption="Deformation of an actual slapshot for comparison (from href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>)."
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-
 
 ### Results:
 
@@ -63,7 +61,7 @@ related_publications: false
   </div>
 </div>
 <div class="caption">
-    Blade (stick tip) velocity over time (right), showing similar velocity behavior in the impact regime (0.05 - 0.1s) of <a href='https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518'>litterature</a> result (right).
+    Blade (stick tip) velocity over time (right), showing similar velocity behavior in the impact regime (0.05 - 0.1s) of the <a href='https://www.researchgate.net/figure/elocity-of-the-hand-the-stick-and-the-puck-when-the-stick-struck-the-puck-directly_fig6_322093518'>litterature</a> result (right).
 </div>
 
 <div class="row justify-content-center">
