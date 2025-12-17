@@ -33,8 +33,8 @@ related_publications: false
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator.jpg" title="Drivetrain physical assembly photo" 
-        caption="Mounted Radiator."
+        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator2.jpeg" title="Drivetrain physical assembly photo" 
+        caption="Mounted radiator and hardline tubing."
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -75,7 +75,7 @@ related_publications: false
   </div>
 </div>
 <div class="caption">
-    Fan testing to select 1 large fan vs 2 smaller fans for better cooling performance, considering affect on battery draw as well.
+    Fan testing to compare one large fan with two smaller fans for better cooling performance, considering affect on battery draw as well.
 </div>
 
 ---
@@ -96,7 +96,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/RadiatorDrawing"
+       path="assets/img/RadiatorDrawing.jpg"
        title="Displacement FEA visual"
        caption="Radiator drawing used for sourcing custom radiator from vendor."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
@@ -112,7 +112,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/MountedRadiator_w_fan.jpg"
+           path="assets/img/MountedRadiator_w_fan2.jpeg"
            title="Eccentric Disk Drawing"
            caption="Mounted Radiator with fans and carbon fiber fan shroud."
            class="img-fluid rounded z-depth-1"

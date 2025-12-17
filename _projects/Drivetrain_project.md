@@ -42,7 +42,7 @@ related_publications: false
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MountedDrivetrainCloseup.jpg" title="drivetrain on car photo"
-        caption="Closeup of mounted drivetrain assembly."
+        caption="Closeup of mounted drivetrain assembly, showing the system mounted in-line with the engine."
         class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
     </div>
 </div>
@@ -150,7 +150,28 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/SprocketOnMill.jpg"
+           path="assets/img/SprocketAdaptor_drawing.png"
+           title="Eccentric Disk Drawing"
+           caption="Critical to function dimensioned drawing of the sprocket adaptor to splined differential."
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/SprocketAdaptor2.jpeg"
+           title="Machined pillowblock and eccentric disk"
+           caption="Sprocket adaptor in house CNC contour and wire EDM spline."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/SprocketOnMill.jpeg"
            title="Eccentric Disk Drawing"
            class="img-fluid rounded z-depth-1"
         %}
@@ -158,7 +179,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/MachinedSprocket.jpg"
+           path="assets/img/MachinedSprocket2.jpeg"
            title="Machined pillowblock and eccentric disk"
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
@@ -172,28 +193,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/SprocketAdaptor_drawing.png"
-           title="Eccentric Disk Drawing"
-           caption="Critical to function dimensioned drawing of the sprocket adaptor to splined differential."
-           class="img-fluid rounded z-depth-1"
-        %}
-    </div>
-  <div class="col-md-6 mt-3 mt-md-0 text-center">
-        {% include figure.liquid
-           loading="eager"
-           path="assets/img/SprocketAdaptor.jpg"
-           title="Machined pillowblock and eccentric disk"
-           caption="Sprocket adaptor in house CNC contour and wire EDM spline."
-           class="img-fluid rounded z-depth-1 img-crop-center"
-        %}
-    </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6 mt-3 mt-md-0 text-center">
-        {% include figure.liquid
-           loading="eager"
-           path="assets/img/Sprocket_w_adaptor.jpg"
+           path="assets/img/Sprocket_w_adaptor2.jpeg"
            title="Eccentric Disk Drawing"
            class="img-fluid rounded z-depth-1"
         %}
@@ -201,7 +201,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/Sprocket_w_adaptor_Back.jpg"
+           path="assets/img/Sprocket_w_adaptorBack.jpeg"
            title="Machined pillowblock and eccentric disk"
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
