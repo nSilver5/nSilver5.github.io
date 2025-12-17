@@ -402,12 +402,7 @@ ninja.data = [{
           section: "News",},{id: "news-began-studying-for-an-sc-m-in-mechanical-engineering-at-brown-university",
           title: 'Began studying for an Sc.M. in Mechanical Engineering at Brown University.',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
@@ -432,6 +427,11 @@ ninja.data = [{
           description: "Brown Formula Racing – Lead Aerodynamics Engineer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Aero_project/";
+            },},{id: "projects-cooling-system",
+          title: 'Cooling System',
+          description: "Brown Formula Racing – Lead Cooling Engineer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cooling_project/";
             },},{id: "projects-drivetrain",
           title: 'Drivetrain',
           description: "Brown Formula Racing – Lead Drivetrain Engineer",
