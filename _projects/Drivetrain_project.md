@@ -41,23 +41,11 @@ related_publications: false
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drivetrain_onCar.png" title="drivetrain on car photo"
-        caption="Drivetrain mounted assembly."
+        {% include figure.liquid loading="eager" path="assets/img/MountedDrivetrainCloseup.jpg" title="drivetrain on car photo"
+        caption="Closeup of mounted drivetrain assembly."
         class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
     </div>
 </div>
-
-{% comment %}
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image"
-        class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-{% endcomment %}
 
 ---
 
@@ -107,33 +95,6 @@ related_publications: false
   </div>
 </div>
 
-{% comment %}
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SpeedVsGear.png" title="Speed vs Gear for different gear ratios plot" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Accel_SpeedVsTime.png" title="Speed vs time accel data" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Accel_EngineSpeedVsTime.png" title="Engine Speed vs time accel data" class="img-fluid rounded z-depth-1" %}
-    </div>
-<div class="caption">
-    Max speed per gear for a range of tooth numbers on the rear sprocket. The selected 40/11 gear ratio is highlighted with 70 MPH top speed. (left)
-    Acceleration event race data, aligning with theoretical 70 MPH top speed. (middle)
-    Acceleration event race data showing redline is reached at the completion of the event. (right)
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TorqueVsRPM.png" title="Torque Vs RPM plot" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Engine torque curve plotted with torques calculated to reach traction limit in 1st & 2nd gear – showing effective gear ratio for engine to reach the traction limit torque.
-</div>
-{% endcomment %}
-
 ---
 
 ### Structural Analysis:
@@ -160,34 +121,12 @@ related_publications: false
   </div>
 </div>
 
-{% comment %}
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/VonMisesFEA.png" title="von Mises FEA visual" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/DisplacementFEA.png" title="Displacement FEA visual" class="img-fluid rounded z-depth-1" %}
-    </div>
-<div class="caption">
-    Static structural FEA on Left Differential Mount, with von Mises stress and deformed displacement visualizations. Forces are resolved from max engine torque. Boundary conditions are pinned mounts and eccentric disk contact.
-</div>
-{% endcomment %}
-
 ---
 
 ### Manufacturing:
 
-{% comment %}
-.img-crop-center {
-  width: 100%;           /* fills the column width */
-  height: 300px;         /* set desired height */
-  object-fit: cover;     /* scales image and crops overflow */
-  object-position: center; /* crop centered vertically & horizontally */
-}
-{% endcomment %}
-
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
            path="assets/img/EDiskDrawing.png"
@@ -196,41 +135,90 @@ related_publications: false
            class="img-fluid rounded z-depth-1"
         %}
     </div>
-</div>
-
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid
            loading="eager"
            path="assets/img/Machined_pillowblock_2.jpeg"
            title="Machined pillowblock and eccentric disk"
-           caption="In house CNC milled differential mounting and eccentric disk."
+           caption="In-house CNC-milled differential mount and eccentric disk, designed and manufactured with tight tolerances for a precision press-fit bearing and snap ring."
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
     </div>
 </div>
 
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/SprocketOnMill.jpg"
+           title="Eccentric Disk Drawing"
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/MachinedSprocket.jpg"
+           title="Machined pillowblock and eccentric disk"
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+<div class="caption">
+    CNC machined 33 tooth sprocket with manual lathe taper designed for gear ratio testing.
+</div>
 
-{% comment %}
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/SprocketAdaptor_drawing.png"
+           title="Eccentric Disk Drawing"
+           caption="Critical to function dimensioned drawing of the sprocket adaptor to splined differential."
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/SprocketAdaptor.jpg"
+           title="Machined pillowblock and eccentric disk"
+           caption="Sprocket adaptor in house CNC contour and wire EDM spline."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
 
-{% raw %}
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Sprocket_w_adaptor.jpg"
+           title="Eccentric Disk Drawing"
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Sprocket_w_adaptor_Back.jpg"
+           title="Machined pillowblock and eccentric disk"
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+<div class="caption">
+    Sprocket adaptor fastened in black anodized sprocket.
+</div>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/Drivetrain_fullCar.jpeg"
+       caption="Full car image showing the finished drivetrain in use, with black anodized aluminum components."
+       title="Torque Vs RPM plot"
+       class="img-fluid rounded z-depth-1 mx-auto d-block"
+    %}
   </div>
 </div>
-```
-
-{% endraw %}
-{% endcomment %}
-
----

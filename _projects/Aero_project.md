@@ -191,5 +191,3 @@ related_publications: false
     %}
   </div>
 </div>
-
----
