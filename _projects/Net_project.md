@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom Welded Hockey Net
-description: Senior Project
+description: Senior Project (High School)
 img: assets/img/Net_finished.png
 importance: 5
 category: Course Projects
@@ -30,7 +30,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Net_drawing.jpg" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/Net_drawing2.jpeg" title="Drivetrain CAD render"
         caption="Hockey net hand drawing."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -47,7 +47,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Net_finalRaw.jpg" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/Net_finalRaw2.jpeg" title="Drivetrain CAD render"
         caption="Welded goal frame."
         class="img-fluid rounded z-depth-1" %}
     </div>

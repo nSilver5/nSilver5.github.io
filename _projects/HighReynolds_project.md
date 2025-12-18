@@ -13,13 +13,13 @@ related_publications: false
 
 ### Overview:
 
-##### Design Requirement:
+##### Design Requirements:
 - Use theory to align simulation and experimental data
 - Maximizes aerodynamic efficiency
 - Maximize lift at max efficiency
 
 
-##### Outcome:
+##### Outcomes:
 - Used finite airfoil adjustments to improve simulation and experiment agreement
 - 2.4282 coefficient of lift at 3.4927 efficiency (2nd best in class)
 
