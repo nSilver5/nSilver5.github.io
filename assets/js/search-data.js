@@ -449,7 +449,7 @@ ninja.data = [{
               window.location.href = "/projects/HighReynolds_project/";
             },},{id: "projects-custom-welded-hockey-net",
           title: 'Custom Welded Hockey Net',
-          description: "Senior Project",
+          description: "Senior Project (High School)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Net_project/";
             },},{id: "projects-shrimpbot",
