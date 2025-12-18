@@ -447,6 +447,11 @@ ninja.data = [{
           description: "High Reynolds Number Flows",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HighReynolds_project/";
+            },},{id: "projects-custom-welded-hockey-net",
+          title: 'Custom Welded Hockey Net',
+          description: "Senior Project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Net_project/";
             },},{id: "projects-shrimpbot",
           title: 'Shrimpbot',
           description: "Vibrations Course &amp; Wilhelmus Lab",
