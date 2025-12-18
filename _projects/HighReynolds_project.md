@@ -68,7 +68,7 @@ related_publications: false
   <div class="col-md-6 mt-3 mt-md-0">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/RE_WindTunnel.jpg"
+       path="assets/img/RE_windTunnel2.jpeg"
        caption="CR001SM airfoil during wind tunnel testing, using a strain gauge and angle gauge to measure axial and normal forces over a range of angles of attack."
        title="Wind Tunnel Photo"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
