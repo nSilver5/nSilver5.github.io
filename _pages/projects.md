@@ -5,7 +5,7 @@ permalink: /projects/
 description: Relevant engineering projects.
 nav: true
 nav_order: 3
-display_categories: [Student Design Team, Research, Course Projects] # work, fun
+display_categories: [Student Design Team, Course Projects] #Research # work, fun
 horizontal: false
 ---
 

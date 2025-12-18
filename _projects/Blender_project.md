@@ -3,7 +3,7 @@ layout: page
 title: Blender CAD Model
 description: Computer Aided Visualization and Design
 img: assets/img/FullBlenderCAD.png
-importance: 2
+importance: 4
 category: Course Projects
 related_publications: false
 ---

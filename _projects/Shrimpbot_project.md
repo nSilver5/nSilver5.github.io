@@ -2,9 +2,9 @@
 layout: page
 title: Shrimpbot
 description: Vibrations Course & Wilhelmus Lab
-img: assets/img/Shrimpbot_sketch.png.png
+img: assets/img/Shrimpbot_sketch.png
 importance: 1
-category: Research
+category: Course Projects # Research
 related_publications: false
 ---
 ###### Sept. 2024 - Dec. 2024

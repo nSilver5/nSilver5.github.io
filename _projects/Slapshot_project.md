@@ -3,7 +3,7 @@ layout: page
 title: Slapshot Dynamic Analysis
 description: Structural Analysis
 img: assets/img/Slapshot_still_FEA.jpg
-importance: 1
+importance: 2
 category: Course Projects
 related_publications: false
 ---
