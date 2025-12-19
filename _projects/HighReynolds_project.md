@@ -64,8 +64,8 @@ related_publications: false
 
 ### Experiments and Analysis:
 
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
        loading="eager"
        path="assets/img/RE_windTunnel2.jpeg"
@@ -74,10 +74,7 @@ related_publications: false
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
-</div>
-
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid
        loading="eager"
        path="assets/img/RE_SimVExperiment.png"
