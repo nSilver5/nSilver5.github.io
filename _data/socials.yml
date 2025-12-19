@@ -2,11 +2,12 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
+brown_profile: https://engineering.brown.edu/people/noah-silverman
 #academia_edu:  https://engineering.brown.edu/people/noah-silverman
   #organization: Brown # your organization as appears in the subdomain
   #username:  Noah # your username
 # acm_id: # your dl.acm.org/profile/id
-blogger_url: https://engineering.brown.edu/people/noah-silverman #your blogger URL
+#blogger_url: https://engineering.brown.edu/people/noah-silverman #your blogger URL
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
