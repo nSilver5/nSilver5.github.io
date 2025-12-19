@@ -463,11 +463,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/Slapshot_project/";
             },},{
-        id: 'social-blogger',
-        title: 'Blogger',
+        id: 'social-brown_profile',
+        title: 'Brown_profile',
         section: 'Socials',
         handler: () => {
-          window.open("https://engineering.brown.edu/people/noah-silverman", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-email',
