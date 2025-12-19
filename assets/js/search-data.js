@@ -463,18 +463,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/Slapshot_project/";
             },},{
+        id: 'social-blogger',
+        title: 'Blogger',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://engineering.brown.edu/people/noah-silverman", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6E%6F%61%68_%73%69%6C%76%65%72%6D%61%6E@%62%72%6F%77%6E.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/nSilver5", "_blank");
         },
       },{
         id: 'social-linkedin',
