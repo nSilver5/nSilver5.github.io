@@ -1,0 +1,126 @@
+commit 908b8335a9680691707e737356e5597124eaf6b8
+Author: Noah Silverman <nsilverman@Noahs-Air-12249.fios-router.home>
+Date:   Sun Jan 11 18:20:47 2026 -0500
+
+    Remove large GIFs
+
+diff --git a/_pages/about.md b/_pages/about.md
+index e958e90..5f86c3f 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -2,7 +2,7 @@
+ layout: about
+ title: About
+ permalink: /
+-subtitle: MS Mechanical Engineering, Brown University ’26
++subtitle: Robotics & Mechanical Design | Prototyping, FEM & DFM | MS Mechanical Engineering, Brown University ’26
+ 
+ profile:
+   align: right
+@@ -31,8 +31,6 @@ Put your address / P.O. box / other info right below your picture. You can also
+ 
+ Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+ 
+-Robotics & Mechanical Design | Prototyping, FEM & DFM
+-
+ Mechanical Engineer and M.S. candidate at Brown University (’26) with experience in design for manufacturing and FEA/FEM analysis. Skilled in prototyping and testing complex systems, and effectively collaborating across disciplines in fast-paced, hands-on environments. 
+ 
+ Seeking opportunities in robotics or aerospace engineering to solve challenging mechanical design problems.
+\ No newline at end of file
+
+--- a/_projects/Slapshot_project.md
++++ b/_projects/Slapshot_project.md
+@@ -45,24 +45,6 @@ related_publications: false
+ 
+ ### Results:
+ 
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_FEA.gif" title="Slapshot FEA gif" 
+-        class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_video_side.gif" title="Slapshot video gif side"
+-        class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_video_front.gif" title="Slapshot video gif front"
+-        class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Visual comparison of FEA deformation (left) to deformation of an actual slapshot for comparison (from <a href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>).
+-</div>
+-
+ <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+     {% include figure.liquid
+diff --git a/assets/img/Slapshot_FEA.gif b/assets/img/Slapshot_FEA.gif
+deleted file mode 100644
+index 55f8d04..0000000
+Binary files a/assets/img/Slapshot_FEA.gif and /dev/null differ
+
+commit b8b4d17670aef40bb5fc873b42ebb7141f28564d
+Author: Noah Silverman <nsilverman@Noahs-Air-12249.fios-router.home>
+Date:   Sun Jan 11 18:11:37 2026 -0500
+
+    chore: downsized gifs
+
+commit 3a1edddc9975c0fbcdf00b8a711463fe2bde5734
+Author: Noah Silverman <nsilverman@noahs-air-12249.mynetworksettings.com>
+Date:   Fri Dec 26 14:03:42 2025 -0500
+
+    gifs to slapshot prj, about edits
+
+diff --git a/_pages/about.md b/_pages/about.md
+index 5f86c3f..e958e90 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -2,7 +2,7 @@
+ layout: about
+ title: About
+ permalink: /
+-subtitle: Robotics & Mechanical Design | Prototyping, FEM & DFM | MS Mechanical Engineering, Brown University ’26
++subtitle: MS Mechanical Engineering, Brown University ’26
+ 
+ profile:
+   align: right
+@@ -31,6 +31,8 @@ Put your address / P.O. box / other info right below your picture. You can also
+ 
+ Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+ 
++Robotics & Mechanical Design | Prototyping, FEM & DFM
++
+ Mechanical Engineer and M.S. candidate at Brown University (’26) with experience in design for manufacturing and FEA/FEM analysis. Skilled in prototyping and testing complex systems, and effectively collaborating across disciplines in fast-paced, hands-on environments. 
+ 
+ Seeking opportunities in robotics or aerospace engineering to solve challenging mechanical design problems.
+\ No newline at end of file
+diff --git a/_projects/Slapshot_project.md b/_projects/Slapshot_project.md
+index fca5dbc..4b8a5ed 100644
+--- a/_projects/Slapshot_project.md
++++ b/_projects/Slapshot_project.md
+@@ -45,6 +45,24 @@ related_publications: false
+ 
+ ### Results:
+ 
++<div class="row">
++    <div class="col-sm mt-3 mt-md-0">
++        {% include figure.liquid loading="eager" path="assets/img/Slapshot_FEA.gif" title="Slapshot FEA gif" 
++        class="img-fluid rounded z-depth-1" %}
++    </div>
++    <div class="col-sm mt-3 mt-md-0">
++        {% include figure.liquid loading="eager" path="assets/img/Slapshot_video_side.gif" title="Slapshot video gif side"
++        class="img-fluid rounded z-depth-1" %}
++    </div>
++    <div class="col-sm mt-3 mt-md-0">
++        {% include figure.liquid loading="eager" path="assets/img/Slapshot_video_front.gif" title="Slapshot video gif front"
++        class="img-fluid rounded z-depth-1" %}
++    </div>
++</div>
++<div class="caption">
++    Visual comparison of FEA deformation (left) to deformation of an actual slapshot for comparison (from <a href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>).
++</div>
++
+ <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+     {% include figure.liquid
