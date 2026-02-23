@@ -447,6 +447,11 @@ ninja.data = [{
           description: "High Reynolds Number Flows",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HighReynolds_project/";
+            },},{id: "projects-mechanical-technology-ii",
+          title: 'Mechanical Technology II',
+          description: "Advanced Machining Techniques",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MechTechII/";
             },},{id: "projects-custom-welded-hockey-net",
           title: 'Custom Welded Hockey Net',
           description: "Senior Project (High School)",
