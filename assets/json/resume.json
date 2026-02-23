@@ -30,11 +30,14 @@
       "studyType": "Master of Science",
       "startDate": "2025-09-01",
       "endDate": "2026-05-01",
-      "score": "",
+      "score": "4.0/4.0 GPA",
       "courses": [
         "Computational Methods in Structural Mechanics",
         "Continuum Mechanics",
-        "Probabilistic Machine Learning"
+        "Probabilistic Machine Learning",
+        "Mechanics of Solids", 
+        "Deep Learning for Scientists & Engineers",
+        "Continuum Mechanics"
       ],
       "activities": ["Graduate TA – Vibrations of Mechanical Systems"]
     },
@@ -70,8 +73,8 @@
       "startDate": "2025-08-01",
       "endDate": "",
       "highlights": [
-        "Prototyping a lightweight, robust system to facilitate mid-air drone assembly and integrating cascading PID, SMC, and MPC robotics control strategies for Automatic Coordination of Teams (ACT) Lab.",
-        "Analyzed weight and strength of frame materials (13% under max weight); designed reliable assembly/disassembly method."
+        "Prototyping a lightweight, durable structural frame for mid-air drone assembly and modeling dynamics for control implementation with the Automatic Coordination of Teams (ACT) Lab.",
+        "Analyzed weight and strength of structural materials (17% under payload limit); designed for reliable assembly/disassembly."
       ]
     },
     {
@@ -81,8 +84,8 @@
       "endDate": "",
       "summary": "Mobile Robotics Startup",
       "highlights": [
-        "Developing 25 durable components to improve prototype stability and maneuverability for early stage robotics startup.",
-        "Selecting motors from calculated torque and system requirements, accounting for electrical power availability.",
+        "Owning hardware development for sports robotics and analytics startup, designing 3 mechanical subsystem prototypes.",
+        "Selected motors based on torque and speed requirements, and assisted with electronics integration and calibration.",
         "Compiling a Bill of Materials (BOM) and sourcing components from vendors or manufacturing in house."
       ]
     },
@@ -95,7 +98,7 @@
       "highlights": [
         "Designed an electromechanical shrimp leg to study locomotion dynamics in collaboration with 5 members.",
         "Owned design and development of prototype leg, fin, and solenoid covers to integrate electronic and dynamic systems.",
-        "Implemented PID, and validated voice coil style actuation for compact, waterproof propulsion."
+        "Implemented PID control, and validated voice coil style actuation for compact, waterproof propulsion."
       ]
     }
   ],
