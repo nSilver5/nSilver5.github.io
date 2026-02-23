@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom Welded Hockey Net
-description: Senior Project (High School)
+description: Senior Project
 img: assets/img/Net_finished.png
 importance: 5
 category: Course Projects

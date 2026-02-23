@@ -180,7 +180,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/MachinedSprocket2.jpeg"
-           title="Machined pillowblock and eccentric disk"
+           title="Machined sprocket"
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
     </div>
@@ -194,7 +194,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/Sprocket_w_adaptor2.jpeg"
-           title="Eccentric Disk Drawing"
+           title="Sprocket with adaptor"
            class="img-fluid rounded z-depth-1"
         %}
     </div>
@@ -202,7 +202,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/Sprocket_w_adaptorBack.jpeg"
-           title="Machined pillowblock and eccentric disk"
+           title="Sprocket with adaptor"
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
     </div>
@@ -217,7 +217,7 @@ related_publications: false
        loading="eager"
        path="assets/img/Drivetrain_fullCar.jpeg"
        caption="Full car image showing the finished drivetrain in use, with black anodized aluminum components."
-       title="Torque Vs RPM plot"
+       title="Full Car Image"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
