@@ -39,7 +39,7 @@
         "Deep Learning for Scientists & Engineers",
         "Continuum Mechanics"
       ],
-      "activities": ["Graduate TA – Vibrations of Mechanical Systems"]
+      "activities": ["Graduate TA - Vibrations of Mechanical Systems"]
     },
     {
       "institution": "Brown University",
@@ -59,7 +59,7 @@
       ],
       "activities": [
         "President/Captain Brown Club Hockey",
-        "Undergraduate TA Energy and the Environment",
+        "Undergraduate TA - Energy and the Environment",
         "Academic Peer Advisor"
       ],
       "awards": ["Sigma Xi - Scientific Research Honor Society, Inducted 2025"]
@@ -241,6 +241,7 @@
         "Google G-Suite",
         "Microsoft Office",
         "Trello",
+        "Jira",
         "Slack",
         "LaTeX"
       ]

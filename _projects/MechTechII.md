@@ -20,15 +20,15 @@ related_publications: false
 
 
 ##### Outcomes:
-- Made 4 precision parts with a variety complex features.
-- Gained card 
+- Made 4 precision tools with a variety complex features.
+- Granted unsupervised machine shop access.
 
 
 ##### Technical Skills:
 - Manual mill
 - Manual lathe
 - Measuring instruments (micrometers, dial calipers)
-- Additional machine shop tools: Hoizontal band saw, vertical band saw, drill press, bench grinder, arbor press, sheet metal shear and finger break
+- Additional machine shop tools: hoizontal band saw, vertical band saw, drill press, bench grinder, arbor press, sheet metal shear and finger break
 
 ---
 
