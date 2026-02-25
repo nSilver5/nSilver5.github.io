@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mechanical Technology II
-description: Advanced Machining Techniques
+title: Advanced Machining Techniques
+description: Mechanical Technology II
 img: assets/img/MT_parallelClamp_top.jpg
 importance: 2
 category: Course Projects
@@ -15,18 +15,20 @@ related_publications: false
 
 ##### Project Requirements:
 - Learn proper machining techniques and practices for various materials.
-- Learn proper shop and machinery safety.
+- Learn proper machine shop and machinery safety.
 - Make accurate and percise parts from engineering drawings.
 
 
 ##### Outcomes:
-- Made 4 percision parts with a variety complex features.
+- Made 4 precision parts with a variety complex features.
+- Gained card 
 
 
 ##### Technical Skills:
 - Manual mill
 - Manual lathe
-- Measuring instruments: micrometers, dial calipers
+- Measuring instruments (micrometers, dial calipers)
+- Additional machine shop tools: Hoizontal band saw, vertical band saw, drill press, bench grinder, arbor press, sheet metal shear and finger break
 
 ---
 
@@ -83,7 +85,7 @@ related_publications: false
   </div>
 </div>
 <div class="caption">
-   Rubber faced mallet, with shank press fit into head and handle, a pin press fit and filled to secure handle, and head taped and tapered for rubber end caps.
+   Rubber faced mallet, with shank press fit into head and handle, a pin press fit and filed to secure handle, and head taped and tapered for rubber end caps.
 </div>
 
 <div class="row">
@@ -105,7 +107,7 @@ related_publications: false
   </div>
 </div>
 <div class="caption">
-   Spring loaded center with tapped tube.
+   Spring loaded center with tapped housing and endcap made from threaded rod.
 </div>
 
 <div class="row">
