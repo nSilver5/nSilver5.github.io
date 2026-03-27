@@ -191,3 +191,19 @@ related_publications: false
     %}
   </div>
 </div>
+
+---
+
+### Final Results:
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Aero_drivingCar.JPG"
+           title="Driving car"
+           caption="Finished driving car."
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>

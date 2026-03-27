@@ -46,10 +46,33 @@ related_publications: false
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ShrimpbotLabeledLegAssem.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/ShrimpbotLabeledLegAssem.png" title="Shrimpbot Labeled CAD Assembly"
         caption="Labeled SolidWorks renders of the designed system. Includes solenoid frame, magnet housings, arms for secure pivoting, magnets for actuation and angle sensing, and a tail."
         class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/Shrimpbot_LegDWG.jpg"
+      title="Shrimpbot leg drawing"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/Shrimpbot_MagnetPost.jpg"
+      title="Shrimpbot Magnet Post Drawing"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
+<div class="caption">
+    Keyed leg (left) and keyed post (right) SolidWorks drawings.
 </div>
 
 <div class="row justify-content-center">

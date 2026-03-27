@@ -106,7 +106,7 @@ related_publications: false
 
 ---
 
-### Result:
+### Final Result:
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
@@ -115,6 +115,18 @@ related_publications: false
            path="assets/img/MountedRadiator_w_fan2.jpeg"
            title="Eccentric Disk Drawing"
            caption="Mounted Radiator with fans and carbon fiber fan shroud."
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3 mt-md-0">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Cooling_drivingCar.JPG"
+           title="Driving car"
+           caption="Finished driving car."
            class="img-fluid rounded z-depth-1"
         %}
     </div>

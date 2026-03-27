@@ -28,7 +28,7 @@ related_publications: false
 - Manual mill
 - Manual lathe
 - Measuring instruments (micrometers, dial calipers)
-- Additional machine shop tools: hoizontal band saw, vertical band saw, drill press, bench grinder, arbor press, sheet metal shear and brake
+- Additional machine shop tools: horizontal band saw, vertical band saw, drill press, bench grinder, arbor press, sheet metal shear and brake.
 
 ---
 

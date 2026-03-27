@@ -211,14 +211,28 @@ related_publications: false
     Sprocket adaptor fastened in black anodized sprocket.
 </div>
 
-<div class="row justify-content-center">
-  <div class="col-md-6 mt-3 mt-md-0">
-    {% include figure.liquid
-       loading="eager"
-       path="assets/img/Drivetrain_fullCar.jpeg"
-       caption="Full car image showing the finished drivetrain in use, with black anodized aluminum components."
-       title="Full Car Image"
-       class="img-fluid rounded z-depth-1 mx-auto d-block"
-    %}
-  </div>
+---
+
+### Final Results:
+
+<div class="row">
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Drivetrain_fullCar.jpeg"
+           title="Full car image from rear"
+           class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+  <div class="col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.liquid
+           loading="eager"
+           path="assets/img/Drivetrain_drivingCar.JPG"
+           title="Driving car side view"
+           class="img-fluid rounded z-depth-1 img-crop-center"
+        %}
+    </div>
+</div>
+<div class="caption">
+    Full car image showing the finished drivetrain in use (left) and driving car (right).
 </div>

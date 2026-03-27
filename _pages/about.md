@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Robotics & Mechanical Design | Prototyping, FEM & DFM | MS Mechanical Engineering, Brown University ’26
+subtitle: MS Mechanical Engineering, Brown University ’26
 
 profile:
   align: right
@@ -30,6 +30,7 @@ latest_posts:
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Robotics & Mechanical Design | Prototyping, FEM & DFM
 
 Mechanical Engineer and M.S. candidate at Brown University (’26) with experience in design for manufacturing and FEA/FEM analysis. Skilled in prototyping and testing complex systems, and effectively collaborating across disciplines in fast-paced, hands-on environments. 
 
