@@ -33,12 +33,14 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RE_S1210.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/RE_S1210.png" 
+        title="S1210 airfoil profile"
         caption="S1210 airfoil profile under study (from <a href='http://airfoiltools.com/'>AirfoilTools.com</a>)."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RE_cr001sm.png" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/RE_cr001sm.png" 
+        title="CR001SM airfoil profile" 
         caption="CR001SM airfoil profile under study (from <a href='http://airfoiltools.com/'>AirfoilTools.com</a>)."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -54,7 +56,7 @@ related_publications: false
        loading="eager"
        path="assets/img/RE_XFLR5_plot.png"
        caption="Image of XFLR5 interface, comparing lift coefficient vs. angle of attack for different airfoil profiles."
-       title="Torque Vs RPM plot"
+       title="XFLR5 interface"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
@@ -79,7 +81,7 @@ related_publications: false
        loading="eager"
        path="assets/img/RE_SimVExperiment.png"
        caption="Comparison of experimental and simulation data of the infinite airfoil S1210 profile and with an adjustment for finite airfoils. Agreement discrepancies coming from infinite approximations in simulations and errors from airfoil mounting brackets and possible wind tunnel wall effects."
-       title="Torque Vs RPM plot"
+       title="Simulation vs experimental data plot"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
@@ -87,12 +89,12 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RE_efficiencyPlot.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/RE_efficiencyPlot.png" title="Efficiency plot S1210 airfoil"
         caption="Airfoil efficiency plots from wind tunnel data from S1210 airfoil."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RE_airfoil_efficiencyPlotCR.png" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/RE_airfoil_efficiencyPlotCR.png" title="Efficiency plot CR001SM airfoil" 
         caption="Airfoil efficiency plots from wind tunnel data from CR001SM airfoil."
         class="img-fluid rounded z-depth-1" %}
     </div>

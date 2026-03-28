@@ -28,12 +28,13 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RadiatorCAD.jpg" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/RadiatorCAD.jpg" 
+        title="Radiator CAD"
         caption="SolidWorks render of radiator and hardline tubing."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator2.jpeg" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator2.jpeg" title="Mounted radiator image" 
         caption="Mounted radiator and hardline tubing."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -48,7 +49,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/Cooling_HeatVSpeed.png"
-           title="Eccentric Disk Drawing"
+           title="Cooling heat vs speed plot"
            caption="Relationship between heat transfer rate and engine speed. Used in determining radiator design."
            class="img-fluid rounded z-depth-1"
         %}
@@ -60,7 +61,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Cooling_fanTest.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Radiator air speed test chart"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -69,7 +70,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Cooling_FanAmp.png"
-      title="Speed vs time accel data"
+      title="Radiator amperage test chart"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -87,7 +88,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/RadiatorCAD.jpg"
-       title="von Mises FEA visual"
+       title="Radiator CAD"
        caption="Radiator CAD render."
        class="img-fluid rounded z-depth-1 equal-size"
     %}
@@ -97,7 +98,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/RadiatorDrawing.jpg"
-       title="Displacement FEA visual"
+       title="Radiator drawing"
        caption="Radiator drawing used for sourcing custom radiator from vendor."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
     %}
@@ -113,7 +114,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/MountedRadiator_w_fan2.jpeg"
-           title="Eccentric Disk Drawing"
+           title="Mounted radiator with fan"
            caption="Mounted Radiator with fans and carbon fiber fan shroud."
            class="img-fluid rounded z-depth-1"
         %}

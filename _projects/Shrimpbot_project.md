@@ -34,7 +34,7 @@ related_publications: false
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Shrimpbot_sketch.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/Shrimpbot_sketch.png" title="Shrimpbot labeled sketch"
         caption="Labeled sketch of system components."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -81,7 +81,7 @@ related_publications: false
        loading="eager"
        path="assets/img/ShrimpbotODEmodel.png"
        caption="Schematic to determine ODE model for the system."
-       title="Torque Vs RPM plot"
+       title="Shrimpbot ODE model schematic"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
@@ -92,7 +92,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/ShrimpbotSwimmingFunction.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Shrimpbot swimming function plot"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -101,7 +101,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/ShrimpbotCurrentFunction.png"
-      title="Speed vs time accel data"
+      title="Shrimpbot current input function"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -119,7 +119,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDvideo_constantSetpoint.gif"
-      title="Speed vs Gear for different gear ratios plot"
+      title="PID video constant setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -128,7 +128,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDplot_constantSetpoint.jpg"
-      title="Speed vs time accel data"
+      title="PID video constant setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -143,7 +143,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDvideo_changingSetpoint.gif"
-      title="Speed vs Gear for different gear ratios plot"
+      title="PID video changing setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -152,7 +152,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDplot_changingSetpoint.jpg"
-      title="Speed vs time accel data"
+      title="PID plot changing setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -167,7 +167,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDvideo_functionSetpoint.gif"
-      title="Speed vs Gear for different gear ratios plot"
+      title="PID video function setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -176,7 +176,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/PIDplot_functionSetpoint.jpg"
-      title="Speed vs time accel data"
+      title="PID plot function setpoint"
       class="img-fluid rounded z-depth-1"
     %}
   </div>

@@ -28,12 +28,13 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/BlenderInstructions.jpg" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/BlenderInstructions.jpg" title="Blender instructions"
         caption="Refence object - blender, showing components."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FullBlenderCAD.png" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/FullBlenderCAD.png" 
+        title="Full blender CAD" 
         caption="Group SolidWorks model of a blender."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -48,7 +49,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Blender_buttonsCAD.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Blender buttons CAD"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -57,7 +58,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Blender_buttonsDrawing.png"
-      title="Speed vs time accel data"
+      title="Buttons drawing"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -71,7 +72,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Blender_lid.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Blender lid CAD"
       caption="Blender lid CAD model."
       class="img-fluid rounded z-depth-1"
     %}
@@ -81,7 +82,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/Blender_cap.png"
-      title="Speed vs time accel data"
+      title="Blender Cap CAD"
       caption="Blender cap CAD model."
       class="img-fluid rounded z-depth-1"
     %}

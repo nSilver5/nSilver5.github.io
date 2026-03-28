@@ -32,12 +32,12 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AeroPackageRender.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/AeroPackageRender.png" title="SolidWorks aero CAD render"
         caption="SolidWorks render of aerodynamics components."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/StarCCM_cadRender.png" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/StarCCM_cadRender.png" title="Star CCM+ CAD render" 
         caption="STAR-CCM+ CAD render for CFD simulations."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -52,7 +52,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/CorneringStreamlines.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Cornering Streamlines Plot"
       caption="Pressure coefficient streamlines in cornering simulations."
       class="img-fluid rounded z-depth-1"
     %}
@@ -62,7 +62,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/TotalPressureScene.jpeg"
-      title="Speed vs time accel data"
+      title="Total Pressure Scene"
       caption="Total pressure coefficient front view of left diffuser, observing vortex generation and effects of inwashing from wheels."
       class="img-fluid rounded z-depth-1"
     %}
@@ -75,7 +75,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/OutboardRWvelocityStreamlines.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Outboard rear wing velocity streamlines"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -84,7 +84,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/InboardRWvelocityStreamlines.png"
-      title="Speed vs time accel data"
+      title="Inboard rear wing velocity streamlines"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -99,7 +99,7 @@ related_publications: false
        loading="eager"
        path="assets/img/dmprj_example.png"
        caption="Design manager project iterating rear wing third flap angle of attack in STAR-CCM+ for CLA optimization."
-       title="Torque Vs RPM plot"
+       title="Example design manager project"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
@@ -114,7 +114,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/FoamMold.jpeg"
-       title="von Mises FEA visual"
+       title="Foam Mold"
        caption="High density CNC cut foam mold of rear wing main element bottom surface."
        class="img-fluid rounded z-depth-1 equal-size"
     %}
@@ -124,7 +124,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/VacuumBag.jpeg"
-       title="Displacement FEA visual"
+       title="Vacuum bagging"
        caption="Vacuum bagging diffusers."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
     %}
@@ -136,7 +136,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/AeroPackageCrop.jpeg"
-           title="Eccentric Disk Drawing"
+           title="Finihsed aero package"
            caption="Finished front and rear wing elements."
            class="img-fluid rounded z-depth-1"
         %}
@@ -152,7 +152,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/dmprj_meshStudy.png"
-           title="Eccentric Disk Drawing"
+           title="Mesh independence study plot"
            caption="CLA vs. base mesh size, one of the metrics examined in the mesh independence study."
            class="img-fluid rounded z-depth-1"
         %}
@@ -164,7 +164,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/Airfoil_Instron.png"
-           title="Machined pillowblock and eccentric disk"
+           title="Airfoil instron test"
            caption="Intron three point bend test of hollow composite airfoil. Assessed stiffness and determined a carbon fiber weight for manufacturing."
            class="img-fluid rounded z-depth-1 img-crop-center"
         %}
@@ -176,7 +176,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/AeroLapTimeChart.png"
-       title="Displacement FEA visual"
+       title="Aero Lap Time Chart"
        caption="Average lap time graph with aero on and off the vehicle."
        class="img-fluid rounded z-depth-1 equal-size-cropped"
     %}
@@ -185,7 +185,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="assets/img/TuftTest_Image.png"
-       title="von Mises FEA visual"
+       title="Tuft testing image"
        caption="Rear wing tuft testing captured by a mounted video camera."
        class="img-fluid rounded z-depth-1 equal-size"
     %}

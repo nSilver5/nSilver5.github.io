@@ -41,7 +41,7 @@ related_publications: false
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MountedDrivetrainCloseup.jpg" title="drivetrain on car photo"
+        {% include figure.liquid loading="eager" path="assets/img/MountedDrivetrainCloseup.jpg" title="Drivetrain on car photo"
         caption="Closeup of mounted drivetrain assembly, showing the system mounted in-line with the engine."
         class="img-fluid rounded z-depth-1" style="transform: rotate(90deg);"%}
     </div>
@@ -172,7 +172,7 @@ related_publications: false
         {% include figure.liquid
            loading="eager"
            path="assets/img/SprocketOnMill.jpeg"
-           title="Eccentric Disk Drawing"
+           title="Sprocket on mill"
            class="img-fluid rounded z-depth-1"
         %}
     </div>

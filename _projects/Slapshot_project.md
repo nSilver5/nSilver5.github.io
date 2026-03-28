@@ -30,12 +30,12 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still_FEA.jpg" title="Drivetrain physical assembly photo" 
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still_FEA.jpg" title="Slapshot FEA timestep" 
         caption="Timestep from a slapshot dynamic simulation, with the beam element visualized as a line."
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Drivetrain CAD render"
+        {% include figure.liquid loading="eager" path="assets/img/Slapshot_still.png" title="Slapshot video timestep"
         caption="Deformation of an actual slapshot for comparison (from <a href='https://www.youtube.com/watch?v=IsCdywftyok'>SmarterEveryDay</a>)."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -50,7 +50,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/BladeStickVelocity.png"
-      title="Speed vs time accel data"
+      title="Blade stick velocity plot"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -58,7 +58,7 @@ related_publications: false
     {% include figure.liquid
       loading="eager"
       path="assets/img/BladeTimeVelocity_litterature.png"
-      title="Speed vs Gear for different gear ratios plot"
+      title="Stick velocity litterature plot"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
@@ -73,7 +73,7 @@ related_publications: false
        loading="eager"
        path="assets/img/BladeVelocityVStiffness.png"
        caption="Stick tip velocity magnitude vs. stick stiffness (represented as Young’s Modulus), showing a faster shot for a more flexible stick under a 100 N max applied load."
-       title="Torque Vs RPM plot"
+       title="Blade velocity vs stiffness plot"
        class="img-fluid rounded z-depth-1 mx-auto d-block"
     %}
   </div>
