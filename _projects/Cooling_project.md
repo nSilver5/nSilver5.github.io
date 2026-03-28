@@ -34,7 +34,7 @@ related_publications: false
         class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator2.jpeg" title="Mounted radiator image" 
+        {% include figure.liquid loading="eager" path="assets/img/MountedRadiator2.jpeg" title="Mounted radiator photo" 
         caption="Mounted radiator and hardline tubing."
         class="img-fluid rounded z-depth-1" %}
     </div>
@@ -115,7 +115,7 @@ related_publications: false
            loading="eager"
            path="assets/img/MountedRadiator_w_fan2.jpeg"
            title="Mounted radiator with fan"
-           caption="Mounted Radiator with fans and carbon fiber fan shroud."
+           caption="Mounted radiator with fans and carbon fiber fan shroud."
            class="img-fluid rounded z-depth-1"
         %}
     </div>
