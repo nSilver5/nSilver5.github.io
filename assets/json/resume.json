@@ -73,10 +73,11 @@
       "startDate": "2025-08-01",
       "endDate": "",
       "highlights": [
-        "Prototyping a lightweight, durable structural frame for mid-air drone assembly and modeling dynamics for control implementation with the Automatic Coordination of Teams (ACT) Lab.",
-        "Analyzed weight and strength of structural materials (17% under payload limit); designed for reliable assembly/disassembly."
+        "Prototyping 6 iterations of lightweight, durable frames for mid-air drone docking using FDM and SLA 3D printing.",
+        "Optimizing weight and material strength (17% under payload limit), and designing for assembly/disassembly reliability.",
+        "Developing a generalized state-space model of a modular drone structure for simulation and control in embedded firmware."
       ]
-    },
+      },
     {
       "name": "Athletek",
       "position": "Lead Mechanical Engineer",
@@ -84,8 +85,8 @@
       "endDate": "",
       "summary": "Mobile Robotics Startup",
       "highlights": [
-        "Owning hardware development for sports robotics and analytics startup, designing 3 mechanical subsystem prototypes.",
-        "Selected motors based on torque and speed requirements, and assisted with electronics integration and calibration.",
+        "Owning hands-on hardware development for sports robotics and analytics startup, iterating prototypes of 3 subsystems.",
+        "Selected 5 actuators based on torque and speed requirements, and assisted with electronics integration and calibration.",
         "Compiling a Bill of Materials (BOM) and sourcing components from vendors or manufacturing in house."
       ]
     },

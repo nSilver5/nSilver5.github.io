@@ -32,7 +32,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 ---
 
-Robotics & Mechanical Design | Prototyping, FEM & DFM
+Robotics & Mechanical Design - Prototyping, FEM & DFM
+
 
 Mechanical Engineer and M.S. candidate at Brown University (’26) with experience in design for manufacturing and FEA/FEM analysis. Skilled in prototyping and testing complex systems, and effectively collaborating across disciplines in fast-paced, hands-on environments. 
 
